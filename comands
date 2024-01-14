@@ -1,0 +1,51 @@
+mkdir name
+mkdir /gpfs-home/m220590ph/softwares
+
+cd name
+
+#Installing in HPC
+
+curl https://www.fftw.org/fftw-3.3.10.tar.gz --output fftw-3.3.10.tar.gz
+tar -zxvf fftw-3.3.10.tar.gz
+cd  fftw-3.3.10
+
+# ./configure --enable-float --enable-threads --enable-openmp prefix=/gpfs-home/m220590ph/softwares/fftw/
+#./configure --enable-float --enable-threads --enable-openmp prefix=/gpfs-scratch/m220590ph/softwares/fftw/
+
+./configure --enable-float --enable-threads --enable-openmp prefix=$HOOOM/softwares/fftw/
+
+make 
+make install
+
+rm fftw-3.3.10.tar.gz
+rm -r fftw-3.3.10
+
+
+
+#Installing miniconda
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+
+bash ~/miniconda.sh -b -p $HOME/miniconda
+
+eval "$($HOME/miniconda/bin/conda shell.bash hook)"
+
+conda init
+
+  environment location: /gpfs-home/m220590ph/miniconda/envs/frontend
+
+
+make nbody_comp FFTW=/gpfs-home/m220590ph/softwares/fftw
+
+./fe-env/bin/activate
+
+#HPC to my laptop
+
+rsync -auv --dry-run --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/FrontEnd_cosmo /home/ashwin/HPC/
+
+#Computer to HPC
+rsync -auv --dry-run --progress --exclude 'Save' --exclude 'trash' /home/ashwin/HPC/FrontEnd_cosmo m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/
+
+Dryeun
+rsync -auv --dry-run --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} /home/ashwin/HPC/FrontEnd_cosmo m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/
+#rsync -auv --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} /home/ashwin/HPC/FrontEnd_cosmo m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/
