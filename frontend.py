@@ -13,7 +13,10 @@ def compile_prog(location,compile_command,location_home):
         os.chdir(os.path.join(location_home,location))
         print(os.getcwd())
 
-        compile_command = "make"+" "+compile_command+" "+"FFTW=/gpfs-scratch/m220590ph/softwares/fftw"
+        if (os.getlogin()=="ashwin"):
+        	compile_command = "make"+" "+compile_command+" "+"FFTW=/usr/local"
+        else:
+        	compile_command = "make"+" "+compile_command+" "+"FFTW=/gpfs-scratch/m220590ph/softwares/fftw"
         os.system(compile_command)
         '''
         #compile_process = subprocess.Popen([location, "make",compile_command])
