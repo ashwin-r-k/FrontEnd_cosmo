@@ -14,7 +14,25 @@ LOC=$(pwd)
     # Example: command_for_ashwin
 else
 echo "Running command for HPC"
-source /gpfs-scratch/m220590ph/FrontEnd_cosmo/fe-env/bin/activate
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/gpfs-home/m220590ph/miniconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/gpfs-home/m220590ph/miniconda/etc/profile.d/conda.sh" ]; then
+        . "/gpfs-home/m220590ph/miniconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/gpfs-home/m220590ph/miniconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+conda activate frontend || exit 1
+
+
 LOC=/gpfs-scratch/m220590ph/FrontEnd_cosmo/
     # Add your command for other users here
     # Example: command_for_others

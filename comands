@@ -20,6 +20,42 @@ make install
 rm fftw-3.3.10.tar.gz
 rm -r fftw-3.3.10
 
+curl https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz -o ffmpeg.tar.xz
+tar -xJf ffmpeg.tar.xz
+cd ffmpeg-6.1.1 
+./configure --prefix="$HOME/softwares/ffmpeg/"
+
+./configure \
+            --prefix="$HOME/softwares/ffmpeg/" \
+            --disable-static --enable-shared \
+            --extra-cflags="-I$USR_LOCAL_PREFIX/include $NVIDIA_CFLAGS" \
+            --extra-ldflags="-L$USR_LOCAL_PREFIX/lib $NVIDIA_LDFLAGS" \
+            --extra-libs='-lpthread -lm' \
+            --bindir="$USR_LOCAL_PREFIX/bin" \
+            --enable-gpl --enable-libaom --enable-libass \
+            --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame \
+            --enable-libopus --enable-libvorbis --enable-libvpx \
+            --enable-libx264 --enable-libx265 --enable-nonfree \
+            --enable-openssl
+
+./configure \                       
+            --prefix="$HOME/softwares/ffmpeg/" \
+            --disable-static --enable-shared \
+            --extra-cflags="-I$HOME/softwares/ffmpeg/include $NVIDIA_CFLAGS" \ 
+            --extra-ldflags="-L$HOME/softwares/ffmpeg/lib $NVIDIA_LDFLAGS" \ 
+            --extra-libs='-lpthread -lm' \
+            --bindir="$HOME/softwares/ffmpeg/bin" \ 
+            --enable-gpl --enable-libaom --enable-libass \
+            --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame \
+            --enable-libopus --enable-libvorbis --enable-libvpx \
+            --enable-libx264 --enable-libx265 --enable-nonfree \
+            --enable-openssl --disable-x86asm
+./configure --prefix="$HOME/softwares/ffmpeg/" --enable-static --disable-shared --enable-gpl --disable-debug --disable-doc --enable-libaom --enable-gnutls
+make
+make install
+
+plt.rcParams['animation.ffmpeg_path']=/home/ashwin/softwares/ffmpeg/bin/ffmpeg
+
 
 
 #Installing miniconda
@@ -48,4 +84,29 @@ rsync -auv --dry-run --progress --exclude 'Save' --exclude 'trash' /home/ashwin/
 
 Dryeun
 rsync -auv --dry-run --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} /home/ashwin/HPC/FrontEnd_cosmo m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/
+
 #rsync -auv --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} /home/ashwin/HPC/FrontEnd_cosmo m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/
+
+
+#Sync the Animination
+
+rsync -auv --progress --exclude={'Save','trash','output.*','pk.*','halo_catalogue*','*.o','input.nbody_comp'} m220590ph@192.168.240.82:/gpfs-scratch/m220590ph/FrontEnd_cosmo/Save/animation/ /home/ashwin/HPC/animation/
+
+
+
+
+
+conda install numpy matplotlib
+conda install conda-forge::ffmpeg-python
+
+history | grep install
+
+
+
+
+
+JOBID1=$(sbatch --parsable <other_options> <submission_script>)
+
+and the dependent one with
+
+sbatch --dependency=afterok:$JOBID1
