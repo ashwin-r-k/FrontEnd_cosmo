@@ -7,9 +7,22 @@ current_user=$(whoami)
 
 # Check if the username is "ashwin"
 if [ "$current_user" == "ashwin" ]; then
+
 echo "Running command for user ashwin"
-source ./fe-env/bin/activate
-LOC=$(pwd)
+__conda_setup="$('/opt/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+LOC=/home/ashwin/HPC/FrontEnd_cosmo/
     # Add your command for the "ashwin" user here
     # Example: command_for_ashwin
 else

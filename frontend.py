@@ -12,8 +12,9 @@ def compile_prog(location,compile_command,location_home):
 # Compile the C++ program 
         os.chdir(os.path.join(location_home,location))
         print(os.getcwd())
-
-        compile_command = "make"+" "+compile_command+" "+"FFTW=/gpfs-scratch/m220590ph/softwares/fftw"
+        home = os.path.expanduser("~")
+        compile_command = "make"+" "+compile_command+" "+f"FFTW={home}/softwares/fftw"
+        print(compile_command)
         os.system(compile_command)
         '''
         #compile_process = subprocess.Popen([location, "make",compile_command])
@@ -22,7 +23,6 @@ def compile_prog(location,compile_command,location_home):
         # Check if the compilation was successful 
         if compile_process.returncode == 0:
             print("Compilation successful.") 
-    
         else: 
             # Print the compilation error messages 
             print("Compilation failed.") 
@@ -70,7 +70,6 @@ box=128
 fraction_fill = 2
 LL= 0.07
 a_initial = 0.008
-
 delta_a= 0.004
 output_flag=0
 pk_flag=0
