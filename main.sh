@@ -58,6 +58,8 @@ fi
 
 cd "$LOC" || exit 1
 
+bash clean  || exit 1
+
 python3 frontend.py || exit 1
 
 cd N-body || exit 1
@@ -92,3 +94,6 @@ cd "$LOC" || exit 1
 echo "Exicution Completed"
 
 bash backupOutput
+
+#plot.
+python3 plott_visual.py || exit 1

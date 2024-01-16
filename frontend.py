@@ -66,15 +66,15 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=128
-fraction_fill = 2
+box=16
+fraction_fill = pow(box,3)
 LL= 0.07
 a_initial = 0.008
 delta_a= 0.004
 output_flag=0
 pk_flag=0
 
-redshift_values = [i for i in range(50,10,-1)]
+redshift_values = [i for i in range(50,1,-1)]
 
 Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
