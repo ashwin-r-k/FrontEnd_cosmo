@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Get the current username
 current_user=$(whoami)
 

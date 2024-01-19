@@ -58,7 +58,7 @@ compile_prog(location_fof,prog,location_home)
 prog = "ionz_main"
 compile_prog(location_regio_yuga,prog,location_home)
 
-seed = -41592
+seed = -100012
 Nbin = 10
 hh = 0.6704
 omega_m = 0.3183
@@ -66,15 +66,15 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=16
-fraction_fill = pow(box,3)
-LL= 0.07
+box=32
+fraction_fill = 2
+LL= 0.14
 a_initial = 0.008
 delta_a= 0.004
 output_flag=0
 pk_flag=0
 
-redshift_values = [i for i in range(50,1,-1)]
+redshift_values = [i for i in range(50,4,-1)]
 
 Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
