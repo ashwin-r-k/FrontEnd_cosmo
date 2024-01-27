@@ -66,7 +66,7 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=32
+box=256*2*2
 fraction_fill = 2
 LL= 0.14
 a_initial = 0.008
@@ -74,7 +74,7 @@ delta_a= 0.004
 output_flag=0
 pk_flag=0
 
-redshift_values = [i for i in range(50,4,-1)]
+redshift_values = [i for i in range(10,9,-1)]
 
 Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
@@ -88,10 +88,13 @@ lines = f"""{int(seed)} {int(Nbin)}
 {Len_redshift}
 {redshift_values_str}"""
 
+print(lines)
+
 os.chdir(os.path.join(location_home,location_nbody))
 with open('input.nbody_comp', 'w') as file:  
         # Using the writelines function  
         file.writelines(lines)  
+        
 with open('input.nbody_comp', 'r') as file:  
         # Using the writelines function  
         lines = file.readlines()
