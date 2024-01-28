@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# Define the CSV file path
+csv_file="task_times.csv"
+
+# Check if the CSV file exists, otherwise create it with a header
+if [ ! -e "$csv_file" ]; then
+    echo "Size,loading,N-body,FOF,ReionYuga,PLOT" > "$csv_file"
+fi
+
+# Function to calculate time difference
+calculate_duration() {
+    start_time=$1
+    end_time=$2
+    duration=$((end_time - start_time))
+    echo "$duration"
+}
+
+task_name="loading"
+# Get the current timestamp in seconds
+start_timestamp=$(date +"%s")
+
+
 # Get the current username
 current_user=$(whoami)
 
@@ -60,11 +81,35 @@ bash clean  || exit 1
 
 python3 frontend.py || exit 1
 
+
+end_timestamp=$(date +"%s")
+
+# Calculate the duration in seconds
+loading_duration=$(calculate_duration "$start_timestamp" "$end_timestamp")
+
+
+
+
+task_name="N-body"
+# Get the current timestamp in seconds
+start_timestamp=$(date +"%s")
+
 cd N-body || exit 1
 echo "$(pwd)"
 ./nbody_comp || exit 1 &
 NBODY_PID=$!  # Save the process ID of the background process
 
 wait $NBODY_PID
+cd "$LOC" || exit 1
+bash movefilesN-F  || exit 1
 
-echo "N BODY computation done"
+end_timestamp=$(date +"%s")
+
+# Calculate the duration in seconds
+n_duration=$(calculate_duration "$start_timestamp" "$end_timestamp")
+
+
+echo "256,$loading_duration,$n_duration" >> "$csv_file"
+
+
+
