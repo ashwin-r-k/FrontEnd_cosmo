@@ -13,8 +13,8 @@ def Zarray(start,stop,step):
     list_Z=[]
     i=start
     while i <= stop :
-        list_Z.append(i)
-        i=round(i+step,1)
+        list_Z.appendround(i,5)
+        i=i+step
     return list_Z
     
 def compile_prog(location,compile_command,location_home):
@@ -83,7 +83,7 @@ delta_a= 0.004
 output_flag=0
 pk_flag=0
 
-redshift_values = Zarray(8,20,1)[::-1]
+redshift_values = Zarray(8,10,0.1)[::-1]
 
 
 Len_redshift = len(redshift_values)
@@ -110,4 +110,12 @@ with open('input.nbody_comp', 'r') as file:
         lines = file.readlines()
         print(lines)
 
+omegabh2=0.022
+lines_r_z = f"""{omega_m} {omegabh2} {hh}
+{Len_redshift}
+{redshift_values_str}"""
+os.chdir(os.path.join(location_home,location_nbody))
+with open('input.r_z', 'w') as file:  
+        # Using the writelines function  
+        file.writelines(lines_r_z)
 
