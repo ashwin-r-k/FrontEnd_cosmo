@@ -87,7 +87,7 @@ void main()
   /* Read input parameters for the simulation from the file "input.nbody_comp" */
   /*---------------------------------------------------------------------------*/
   
-  inp=fopen("input.nbody_comp","r");
+  inp=fopen("input.sampling","r");
   fscanf(inp,"%ld%*d",&tmp);
   fscanf(inp,"%*f%*f%*f%*f");
   fscanf(inp,"%*f%*f");
@@ -105,15 +105,16 @@ void main()
   fclose(inp);
   
   /*-----------------------------read nbody output-----------------------------*/
-  system("mkdir -p ../Save/sampled_outputs");
+  system("mkdir -p ../../Save/Run/sampled_outputs");
   
   for(i=0;i<Noutput;i++)
     {
-      strcpy(file,"/home/ashwin/HPC/FrontEnd_cosmo/Save/BackupRun_1/output.nbody_");
+      strcpy(file,"../../Save/Run/output.nbody_");
       sprintf(num,"%.3f",nz[i]);
       strcat(file,num);
 
       printf("%s\n", file);
+
       read_output(file,1,&seed,&output_flag,&in_flag,rra,vva,&vaa); // only read header
       if(i==0)
 	{
@@ -130,8 +131,8 @@ void main()
       
       printf("%ld %ld\n", MM*8, MM);
       
-      strcpy(file,"../Save/sampled_outputs/sampled.nbody_");
-      sprintf(num,"%.4f",nz[i]);
+      strcpy(file,"../../Save/Run/sampled_outputs/sampled.nbody_");
+      sprintf(num,"%.3f",nz[i]);
       strcat(file,num);
       
       write_sampled(file, seed, oflag, rra, vva, aa, rc);

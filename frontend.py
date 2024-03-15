@@ -7,13 +7,17 @@ location_home=os.getcwd()
 location_nbody = "N-body"
 location_fof = "FoF-Halo-finder"
 location_regio_yuga = "ReionYuga"
+
+location_r_z = "r_z"
+location_sampling = "sampling"
+
 location_py_env_act="fe-env/bin"
 
 def Zarray(start,stop,step):
     list_Z=[]
     i=start
     while i <= stop :
-        list_Z.appendround(i,5)
+        list_Z.append(round(i,5))
         i=i+step
     return list_Z
     
@@ -66,6 +70,13 @@ compile_prog(location_fof,prog,location_home)
 
 prog = "ionz_main"
 compile_prog(location_regio_yuga,prog,location_home)
+
+prog = "r_z"
+compile_prog(location_r_z,prog,location_home)
+
+prog = "random"
+compile_prog(location_sampling,prog,location_home)
+
 
 seed = -100012
 Nbin = 10

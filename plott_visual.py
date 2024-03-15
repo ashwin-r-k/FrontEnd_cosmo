@@ -12,10 +12,12 @@ import matplotlib.animation as animation
 #plt.rcParams['animation.ffmpeg_path']='/gpfs-home/m220590ph/softwares/ffmpeg/bin/ffmpeg'
 
 print(os.getcwd())
-
+os.chdir("../")
 location_home = os.getcwd()
 location_Save = "Save"
 location_Save = os.path.join(location_home,location_Save)
+
+print(location_Save)
 
 #latest
 #location_backup = max([os.path.join(location_Save,d) for d in os.listdir(location_Save)], key=os.path.getmtime)

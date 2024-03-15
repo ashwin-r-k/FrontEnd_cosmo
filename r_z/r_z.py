@@ -56,3 +56,17 @@ print(output)
 with open('output', 'w') as file:  
         # Using the writelines function  
         file.writelines(output)
+
+lines = f"""{int(seed)} {int(Nbin)}
+{hh} {omega_m} {omega_l} {spectral_index}
+{omega_baryon} {sigma_8}
+{box} {box} {box} {int(fraction_fill)} {LL}
+{output_flag} {pk_flag}
+{a_initial} {delta_a}
+"""+output
+
+print(lines)
+
+with open('input.nbody_comp_sampling', 'w') as file:  
+        # Using the writelines function  
+        file.writelines(lines)  

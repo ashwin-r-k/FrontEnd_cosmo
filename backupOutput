@@ -6,7 +6,7 @@ name_ofFolder="BackupRun"
 
 # Set the source and destination directories relative to the current working directory
 source_dir="$(pwd)/ReionYuga"
-destination_base_dir="$(pwd)/Save"
+destination_base_dir="$(pwd)/../Save"
 
 # Ensure the source directory exists
 if [ ! -d "$source_dir/$folder_to_move" ]; then
