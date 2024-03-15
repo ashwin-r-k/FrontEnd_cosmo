@@ -1,3 +1,4 @@
+
 import subprocess
 import os
 print(os.getcwd())
@@ -8,6 +9,14 @@ location_fof = "FoF-Halo-finder"
 location_regio_yuga = "ReionYuga"
 location_py_env_act="fe-env/bin"
 
+def Zarray(start,stop,step):
+    list_Z=[]
+    i=start
+    while i <= stop :
+        list_Z.append(i)
+        i=round(i+step,1)
+    return list_Z
+    
 def compile_prog(location,compile_command,location_home):
 # Compile the C++ program 
         os.chdir(os.path.join(location_home,location))
@@ -74,7 +83,8 @@ delta_a= 0.004
 output_flag=0
 pk_flag=0
 
-redshift_values = [i for i in range(10,9,-1)]
+redshift_values = Zarray(8,20,1)[::-1]
+
 
 Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)

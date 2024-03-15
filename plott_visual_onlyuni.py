@@ -67,16 +67,18 @@ Tpl=dT[:,:,:,0]  # extracting out the first 5 slices
 av_Tpl=np.mean(Tpl, axis=0) # stacking (averaging) the 5 slices along x-axis(axis=0) 
 #print(np.shape(av_Tpl))
 
-fig = pl.figure(1, (5., 5.))
+#fig = pl.figure(1, (5., 5.))
 #pl.imshow(av_Tpl,origin='lower')
 #pl.colorbar(pad=0.01,fraction=0.047)
 #pl.clim(0,5)
 
 #pl.save()
 
-fig, ax = plt.subplots()
-im = ax.imshow(av_Tpl, origin='lower', cmap='viridis')
-cbar = fig.colorbar(im, pad=0.01, fraction=0.047)
+fig, ax = plt.subplots(figsize=(10.24,10.24))
+plt.axis('off')
+fig.tight_layout(pad=0,h_pad=None, w_pad=None)
+im = ax.imshow(av_Tpl, aspect="equal", cmap='gray')
+#cbar = fig.colorbar(im, pad=0.01, fraction=0.047)
 
 def update(frame):
     filename = intrestFiles[frame]
@@ -94,8 +96,8 @@ def update(frame):
   #  pl.imshow(av_Tpl,origin='lower')
     im.set_array(av_Tpl)
 
-    z=re.search(r'([0-9]+)', filename).group()
-    ax.set_title(f'Z= {z}')
+#    z=re.search(r'([0-9]+)', filename).group()
+#    ax.set_title(f'Z= {z}')
     return im,
 
 anim = FuncAnimation(fig, update, frames=len(intrestFiles), interval=1000, blit=True)
@@ -103,7 +105,7 @@ anim = FuncAnimation(fig, update, frames=len(intrestFiles), interval=1000, blit=
 #animation.save(f'Save/animation/mov_{intrestFolder}_{search}.mp4', writer='ffmpeg', fps=1)
 
 f = f'Save/animation/mov_{intrestFolder}_{search}.mp4'
-writervideo = animation.FFMpegWriter(fps=2) 
+writervideo = animation.FFMpegWriter(fps=5) 
 anim.save(f, writer=writervideo)
 
 f = f'Save/animation/mov_{intrestFolder}_{search}.gif'
