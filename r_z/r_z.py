@@ -20,15 +20,15 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=256
+box=64
 fraction_fill = 2
-LL= 0.14
+LL= 0.07
 a_initial = 0.008
 delta_a= 0.004
 output_flag=0
-pk_flag=0
+pk_flag=1
 
-redshift_values = Zarray(8,10,0.1)[::-1]
+redshift_values = Zarray(8,10,0.01)
 
 
 Len_redshift = len(redshift_values)
@@ -41,21 +41,26 @@ lines_r_z = f"""{omega_m} {omegabh2} {hh}
 {redshift_values_str}"""
 
 print(lines_r_z)
-with open('input.r_z', 'w') as file:  
+with open('../../Save/Run/inputs/input.r_z', 'w') as file:  
         # Using the writelines function  
         file.writelines(lines_r_z)
  
+run_process = subprocess.run("ls", stdout=subprocess.PIPE, stderr=subprocess.PIPE) 
+        # Get the output and error messages from the program 
+output = run_process.stdout.decode() 
+print(output)
 # using os.system to run the command and redirect the output to a file
 run_process = subprocess.run("./r_z", stdout=subprocess.PIPE, stderr=subprocess.PIPE) 
-         
         # Get the output and error messages from the program 
 output = run_process.stdout.decode() 
 
 print(output)
 
+"""
 with open('output', 'w') as file:  
         # Using the writelines function  
         file.writelines(output)
+"""
 
 lines = f"""{int(seed)} {int(Nbin)}
 {hh} {omega_m} {omega_l} {spectral_index}
@@ -67,6 +72,6 @@ lines = f"""{int(seed)} {int(Nbin)}
 
 print(lines)
 
-with open('input.nbody_comp_sampling', 'w') as file:  
+with open('../../Save/Run/inputs/input.sampling', 'w') as file:  
         # Using the writelines function  
         file.writelines(lines)  

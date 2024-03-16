@@ -87,7 +87,7 @@ void main()
   /* Read input parameters for the simulation from the file "input.nbody_comp" */
   /*---------------------------------------------------------------------------*/
   
-  inp=fopen("input.sampling","r");
+  inp=fopen("../../Save/Run/inputs/input.sampling","r");
   fscanf(inp,"%ld%*d",&tmp);
   fscanf(inp,"%*f%*f%*f%*f");
   fscanf(inp,"%*f%*f");

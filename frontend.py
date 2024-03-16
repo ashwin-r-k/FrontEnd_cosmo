@@ -86,15 +86,15 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=256
+box=64
 fraction_fill = 2
-LL= 0.14
+LL= 0.07
 a_initial = 0.008
 delta_a= 0.004
 output_flag=0
-pk_flag=0
+pk_flag=1
 
-redshift_values = Zarray(8,10,0.1)[::-1]
+redshift_values = Zarray(8,10,0.01)[::-1]
 
 
 Len_redshift = len(redshift_values)
@@ -116,17 +116,3 @@ with open('input.nbody_comp', 'w') as file:
         # Using the writelines function  
         file.writelines(lines)  
         
-with open('input.nbody_comp', 'r') as file:  
-        # Using the writelines function  
-        lines = file.readlines()
-        print(lines)
-
-omegabh2=0.022
-lines_r_z = f"""{omega_m} {omegabh2} {hh}
-{Len_redshift}
-{redshift_values_str}"""
-os.chdir(os.path.join(location_home,location_nbody))
-with open('input.r_z', 'w') as file:  
-        # Using the writelines function  
-        file.writelines(lines_r_z)
-

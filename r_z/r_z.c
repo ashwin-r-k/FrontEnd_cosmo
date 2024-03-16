@@ -20,7 +20,7 @@ int main()
   /*--------------------------------------------------------------------------------*/
   
   /*read input from file*/
-  fp=fopen("input.r_z","r");
+  fp=fopen("../../Save/Run/inputs/input.r_z","r");
   
   fscanf(fp,"%f%f%f",&omegam,&omegabh2,&hh);
   fscanf(fp,"%d",&Nz);
