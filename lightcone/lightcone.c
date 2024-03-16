@@ -45,7 +45,7 @@ void main()
   /*---------------------------------------------------------------------------*/
   /* Read input parameters for the simulation from the file "input.nbody_comp" */
   /*---------------------------------------------------------------------------*/
-  
+  system("mkdir -p ../../Save/Run/lightcone");
   inp=fopen("../../Save/Run/inputs/input.lightcone","r");
 
   fscanf(inp,"%f %f %f %f",&vhh,&vomegam,&vomegalam,&vomegab);
@@ -105,7 +105,7 @@ void main()
     Ninput++;
   printf("%d no. of outputs are needed to create the lightcone.\n", Ninput - start);
   
-  outpp=fopen("lc_part","w");
+  outpp=fopen("../../Save/Run/lightcone/lc_part","w");
   
   /*---------------------------------------------------------------------------*/
 
@@ -273,7 +273,7 @@ void main()
   /*---------------------------------------------------------------------------*/
 
   MM=0;
-  outpp=fopen("lc_part_rs","w");
+  outpp=fopen("../../Save/Run/lightcone/lc_part_rs","w");
 
   for(ii=0;ii<newMM;ii++)
     {
@@ -314,7 +314,7 @@ void main()
   
   cic_vmass(ro, data, 0, 1, 3, 4);  // convert particles HI masses to  HI density
 
-  sprintf(file,"%s%.4f","lc_maprs_",zc);
+  sprintf(file,"%s%.4f","../../Save/Run/lightcone/lc_maprs_",zc);
   outpp=fopen(file,"w");
       
   fwrite(&N1,sizeof(int),1,outpp);
@@ -347,7 +347,7 @@ void main()
   fclose(outpp);
   
   /*----------------------------------------------------------------*/
-  sprintf(file,"%s%.4f","z_xHI_",zc);
+  sprintf(file,"%s%.4f","../../Save/Run/lightcone/z_xHI_",zc);
   outpp=fopen(file,"w");
   
   for(kk=0;kk<N3;kk++)
