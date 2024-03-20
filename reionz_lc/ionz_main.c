@@ -141,7 +141,7 @@ void main()
   fprintf(fp,"%d %d %d\n",N1,N2,N3);
   fprintf(fp,"%f\n",LL);
 //Define start
-  fprintf(fp,"%d\n",11);
+  fprintf(fp,"%d\n",Noutput/3);
   fprintf(fp,"%d\n",Noutput);
 
   for(i=0;i<Noutput;i++)

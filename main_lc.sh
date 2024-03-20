@@ -60,7 +60,6 @@ mkdir -p ../Save/Run/inputs || exit 1
 echo "Inputes dir created"
 
 cd "r_z" || exit 1
-make r_z || exit 1
 echo "$(pwd)"
 python3 r_z.py || exit 1
 
@@ -75,7 +74,6 @@ echo "R_Z lightcone Done"
 cd "$LOC" || exit 1
 cd sampling || exit 1
 echo "$(pwd)"
-make random
 ./random || exit 1 &
 S_PID=$!  # Save the process ID of the background process
 wait $S_PID
@@ -85,7 +83,6 @@ echo "Sampling Done"
 #mv -f sampling/input.sampling reionz_lc/input.sampling || exit 1
 
 cd reionz_lc || exit 1
-make ionz_main || exit 1
 ./ionz_main || exit 1 &
 Ionz_lc_PID=$!
 wait $Ionz_lc_PID
@@ -94,7 +91,6 @@ echo "ionz lc Done"
 
 cd "$LOC" || exit 1
 cd lightcone || exit 1
-make lightcone || exit 1
 ./lightcone || exit 1 &
 LC_PID=$!
 wait $LC_PID

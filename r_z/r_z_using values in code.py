@@ -1,20 +1,37 @@
-import sys
-import os
+
 import subprocess
-
-sys.path.insert(1,"../../Save/Run/")
-#import imp
-#module = imp.load_source("read_txt_val", '../../Save/Run/input.nbody_comp')
-from values import *
-
+import os
 print(os.getcwd())
 
-location_home=os.getcwd() 
 
-redshift_values = redshift_values[::-1]
+def Zarray(start,stop,step):
+    list_Z=[]
+    i=start
+    while i <= stop :
+        list_Z.append(round(i,5))
+        i=i+step
+    return list_Z
+ 
+seed = -100012
+Nbin = 10
+hh = 0.6704
+omega_m = 0.3183
+omega_l = 0.6817
+spectral_index =0.9619
+omega_baryon = 0.04902
+sigma_8 = 0.8347
+box=pow(2,8)
+fraction_fill = 1
+LL= 0.07
+a_initial = 0.008
+delta_a= 0.004
+output_flag=0
+pk_flag=1
+
+redshift_values = Zarray(8,10,0.1)
 
 
-
+Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
 
 omegabh2=0.022
@@ -22,13 +39,6 @@ omegabh2=0.022
 lines_r_z = f"""{omega_m} {omegabh2} {hh}
 {Len_redshift}
 {redshift_values_str}"""
-
-if not os.path.exists("../../Save/Run/inputs/ "): 
-      
-    # if the demo_folder directory is not present  
-    # then create it. 
-    os.makedirs("../../Save/Run/inputs/ ") 
-    
 
 print(lines_r_z)
 with open('../../Save/Run/inputs/input.r_z', 'w') as file:  

@@ -1,8 +1,15 @@
-LINKLIB=  -L/usr/local/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+#LINKLIB=  -L/usr/local/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
 
 #LINKLIB= -lm -lc -L/usr/local/lib/ -lfftw3
 
-INCLUDE=-I/usr/local/include/
+#INCLUDE=-I/usr/local/include/
+
+#Passing the FFTW location
+LINKLIB=  -L$(FFTW)/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+
+#LINKLIB= -lm -lc -L/usr/local/lib/ -lfftw3
+
+INCLUDE=-I$(FFTW)/include/
 
 
 CFLAGS=-g

@@ -58,6 +58,7 @@ cd "$LOC" || exit 1
 
 bash clean  || exit 1
 
+cp values.py N-body/values.py
 python3 frontend.py || exit 1
 
 cd N-body || exit 1

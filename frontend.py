@@ -1,6 +1,8 @@
 
 import subprocess
 import os
+from values import *
+
 print(os.getcwd())
 
 location_home=os.getcwd()
@@ -10,16 +12,12 @@ location_regio_yuga = "ReionYuga"
 
 location_r_z = "r_z"
 location_sampling = "sampling"
+location_lightcone="lightcone"
+location_rion_lc="reionz_lc"
 
 location_py_env_act="fe-env/bin"
 
-def Zarray(start,stop,step):
-    list_Z=[]
-    i=start
-    while i <= stop :
-        list_Z.append(round(i,5))
-        i=i+step
-    return list_Z
+
     
 def compile_prog(location,compile_command,location_home):
 # Compile the C++ program 
@@ -77,27 +75,12 @@ compile_prog(location_r_z,prog,location_home)
 prog = "random"
 compile_prog(location_sampling,prog,location_home)
 
+prog = "lightcone"
+compile_prog(location_lightcone,prog,location_home)
 
-seed = -100012
-Nbin = 10
-hh = 0.6704
-omega_m = 0.3183
-omega_l = 0.6817
-spectral_index =0.9619
-omega_baryon = 0.04902
-sigma_8 = 0.8347
-box=64
-fraction_fill = 2
-LL= 0.07
-a_initial = 0.008
-delta_a= 0.004
-output_flag=0
-pk_flag=1
+prog = "ionz_main"
+compile_prog(location_rion_lc,prog,location_home)
 
-redshift_values = Zarray(8,10,0.01)[::-1]
-
-
-Len_redshift = len(redshift_values)
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
 
 lines = f"""{int(seed)} {int(Nbin)}

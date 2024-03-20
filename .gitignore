@@ -1,3 +1,10 @@
 /Save
 **/pk.nbody*
-/fe-env
+
+/N-body/nbody_comp
+/FoF-Halo-finder/fof_main
+/ReionYuga/ionz_main
+/r_z/r_z
+/sampling/random
+/reionz_lc/ionz_main
+/lightcone/lightcone

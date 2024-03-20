@@ -7,7 +7,10 @@ search_terms=("output.nbody" "input.nbody" "pk." "halo_catalogue")
 rm $(pwd)/N-body/nbody_comp
 rm $(pwd)/FoF-Halo-finder/fof_main
 rm $(pwd)/ReionYuga/ionz_main
-
+rm $(pwd)/r_z/r_z
+rm $(pwd)/sampling/random
+rm $(pwd)/reionz_lc/ionz_main
+rm $(pwd)/lightcone/lightcone
 
 
 

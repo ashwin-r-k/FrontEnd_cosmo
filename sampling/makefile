@@ -1,8 +1,14 @@
-LINKLIB=  -L/usr/local/lib/ -lm
+#LINKLIB=  -L/usr/local/lib/ -lm
 
 #LINKLIB= -lm -lc -L/usr/local/lib/ -lfftw3
 
-INCLUDE=-I/usr/local/include/
+#INCLUDE=-I/usr/local/include/
+
+LINKLIB=  -L$(FFTW)/lib/  -lm
+
+#LINKLIB= -lm -lc -L/usr/local/lib/ -lfftw3
+
+INCLUDE=-I$(FFTW)/include/
 
 
 CFLAGS=-g

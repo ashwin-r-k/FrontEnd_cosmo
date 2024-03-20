@@ -193,7 +193,7 @@ void main()
 
   float nu_cuti=0.0, nu_cutf=0.0;
   
-  inp=fopen("lc_part","r");
+  inp=fopen("../../Save/Run/lightcone/lc_part","r");
   
   for(ii=0;ii<newMM;ii++)
     {
@@ -303,7 +303,7 @@ void main()
 
   data = allocate_float_2d(MM,5);
 
-  inp=fopen("lc_part_rs","r");
+  inp=fopen("../../Save/Run/lightcone/lc_part_rs","r");
   
   for(ii=0;ii<MM;ii++)
     fread(&data[ii][0],sizeof(float),5,inp);
@@ -338,7 +338,7 @@ void main()
   
   calpow_mom(ro,Nbin,power_P0,kmode,power_P2,power_P4,no); // calculates moments of redshift space power spectrum
   
-  sprintf(file,"%s%.4f","pk.lcrs_",zc);
+  sprintf(file,"%s%.4f","../../Save/Run/lightcone/pk.lcrs_",zc);
   outpp=fopen(file,"w");
   
   for(ii=0;ii<Nbin;ii++)
