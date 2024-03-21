@@ -126,7 +126,7 @@ void main()
   //-------------parameters read from input file. Check this ------------------//
   
   sfac=8;
-  nion=23.21;
+  nion=23.21; // 15 to 32  0.1 
   
   //---------------------------------------------------------------------------//
   //system("rm -r ionz_out");

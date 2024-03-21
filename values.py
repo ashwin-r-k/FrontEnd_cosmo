@@ -21,7 +21,7 @@ a_initial = 0.008
 delta_a= 0.004
 output_flag=0
 pk_flag=1
-redshift_values = Zarray(8,10,0.1)[::-1]
+redshift_values = Zarray(8.560,9,0.01)[::-1]
 Len_redshift = len(redshift_values)
 
 
