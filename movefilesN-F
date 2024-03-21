@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the search terms in an array
-search_terms=("output.nbody" "input.nbody")
+search_terms=("output.nbody" "input.nbody" "pk.nbody" "values.py")
 
 # Set the source and destination directories relative to the current working directory
 source_dir="$(pwd)/N-body"

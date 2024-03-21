@@ -1,12 +1,13 @@
-LINKLIB=  -L/usr/local/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+LINKLIB=  -L$(FFTW)/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
 
 #LINKLIB= -lm -lc -L/usr/local/lib/ -lfftw3
 
-INCLUDE=-I/usr/local/include/
+INCLUDE=-I$(FFTW)/include/
 
 
 CFLAGS=-g
 CC=gcc
+
 
 
 nbody_comp: nbody_comp.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o 

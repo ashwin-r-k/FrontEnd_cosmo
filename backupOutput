@@ -6,7 +6,7 @@ name_ofFolder="BackupRun"
 
 # Set the source and destination directories relative to the current working directory
 source_dir="$(pwd)/ReionYuga"
-destination_base_dir="$(pwd)/Save"
+destination_base_dir="$(pwd)/../Save"
 
 # Ensure the source directory exists
 if [ ! -d "$source_dir/$folder_to_move" ]; then
@@ -37,7 +37,7 @@ echo "Moved folder '$folder_to_move' to '$destination_dir'"
 
 
 # Set the search terms in an array
-search_terms=("output.nbody" "input.nbody" "halo_catalogue")
+search_terms=("output.nbody" "input.nbody" "halo_catalogue" "pk.nbody" "values.py")
 
 # Set the source and destination directories relative to the current working directory
 source_dir="$(pwd)/ReionYuga"
