@@ -1,0 +1,1131 @@
+Running command for HPC
+Inputes dir created
+/gpfs-scratch/m220590ph/FrontEnd_cosmo/r_z
+/gpfs-scratch/m220590ph/FrontEnd_cosmo/r_z
+0.3183 0.022 0.6704
+51
+5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9 6.0 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8 6.9 7.0 7.1 7.2 7.3 7.4 7.5 7.6 7.7 7.8 7.9 8.0 8.1 8.2 8.3 8.4 8.5 8.6 8.7 8.8 8.9 9.0 9.1 9.2 9.3 9.4 9.5 9.6 9.7 9.8 9.9 10.0
+funcs.c
+funcs.h
+makefile
+r_z
+r_z.c
+r_z.py
+r_z_using values in code.py
+
+51
+5.000000	7966.578125
+5.100000	8019.628906
+5.200000	8071.394043
+5.300000	8121.941406
+5.400000	8171.307129
+5.500000	8219.536133
+5.600000	8266.670898
+5.700000	8312.763672
+5.800000	8357.833984
+5.900000	8401.931641
+6.000000	8445.086914
+6.100000	8487.331055
+6.200000	8528.694336
+6.300000	8569.214844
+6.400000	8608.916992
+6.500000	8647.822266
+6.600000	8685.961914
+6.700000	8723.355469
+6.800000	8760.043945
+6.900000	8796.025391
+7.000000	8831.333984
+7.100000	8865.992188
+7.200000	8900.016602
+7.300000	8933.431641
+7.400000	8966.241211
+7.500000	8998.476562
+7.600000	9030.149414
+7.700000	9061.278320
+7.800000	9091.875977
+7.900000	9121.955078
+8.000000	9151.533203
+8.100000	9180.625977
+8.200000	9209.246094
+8.300000	9237.392578
+8.400000	9265.105469
+8.500000	9292.372070
+8.600000	9319.220703
+8.700000	9345.651367
+8.800000	9371.667969
+8.900000	9397.299805
+9.000000	9422.543945
+9.100000	9447.409180
+9.200000	9471.919922
+9.300000	9496.067383
+9.400000	9519.867188
+9.500000	9543.320312
+9.600000	9566.446289
+9.700000	9589.250977
+9.800000	9611.729492
+9.900000	9633.912109
+10.000000	9655.778320
+
+-100012 10
+0.6704 0.3183 0.6817 0.9619
+0.04902 0.8347
+1536 1536 1536 2 0.14
+0 1
+0.008 0.004
+51
+5.000000	7966.578125
+5.100000	8019.628906
+5.200000	8071.394043
+5.300000	8121.941406
+5.400000	8171.307129
+5.500000	8219.536133
+5.600000	8266.670898
+5.700000	8312.763672
+5.800000	8357.833984
+5.900000	8401.931641
+6.000000	8445.086914
+6.100000	8487.331055
+6.200000	8528.694336
+6.300000	8569.214844
+6.400000	8608.916992
+6.500000	8647.822266
+6.600000	8685.961914
+6.700000	8723.355469
+6.800000	8760.043945
+6.900000	8796.025391
+7.000000	8831.333984
+7.100000	8865.992188
+7.200000	8900.016602
+7.300000	8933.431641
+7.400000	8966.241211
+7.500000	8998.476562
+7.600000	9030.149414
+7.700000	9061.278320
+7.800000	9091.875977
+7.900000	9121.955078
+8.000000	9151.533203
+8.100000	9180.625977
+8.200000	9209.246094
+8.300000	9237.392578
+8.400000	9265.105469
+8.500000	9292.372070
+8.600000	9319.220703
+8.700000	9345.651367
+8.800000	9371.667969
+8.900000	9397.299805
+9.000000	9422.543945
+9.100000	9447.409180
+9.200000	9471.919922
+9.300000	9496.067383
+9.400000	9519.867188
+9.500000	9543.320312
+9.600000	9566.446289
+9.700000	9589.250977
+9.800000	9611.729492
+9.900000	9633.912109
+10.000000	9655.778320
+
+R_Z lightcone Done
+/gpfs-scratch/m220590ph/FrontEnd_cosmo/sampling
+../../Save/Run/output.nbody_5.000
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.100
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.200
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.300
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.400
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.500
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.600
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.700
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.800
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_5.900
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.000
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.100
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.200
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.300
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.400
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.500
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.600
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.700
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.800
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_6.900
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.000
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.100
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.200
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.300
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.400
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.500
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.600
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.700
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.800
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_7.900
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.000
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.100
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.200
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.300
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.400
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.500
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.600
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.700
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.800
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_8.900
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.000
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.100
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.200
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.300
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.400
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.500
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.600
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.700
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.800
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_9.900
+452984832 56623104
+ok unit change
+../../Save/Run/output.nbody_10.000
+452984832 56623104
+ok unit change
+Sampling Done
+ opening input light cone = ../../Save/Run/inputs/input.lightcone 
+ 0.670400 0.318300 0.681700 0.049020
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.000
+ ok read halo catalogue = 8.171939e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.000
+ ok read nbody output = 4.538159e+00
+No of threads = 32
+ok cic_vmass= 1.675234e+01
+ok smoothing = 1.693131e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.0000
+ mass avg. x_HI=0.0576
+5.000000 7966.578125 0.057563
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.0000_0.0576
+ ok time taken= 1.812608e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.100
+ ok read halo catalogue = 9.236471e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.100
+ ok read nbody output = 4.689903e+00
+ok cic_vmass= 1.673013e+01
+ok smoothing = 1.673936e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.1000
+ mass avg. x_HI=0.0752
+5.100000 8019.628906 0.075153
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.1000_0.0752
+ ok time taken= 1.811371e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.200
+ ok read halo catalogue = 9.137671e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.200
+ ok read nbody output = 4.679346e+00
+ok cic_vmass= 1.671983e+01
+ok smoothing = 1.669398e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.2000
+ mass avg. x_HI=0.0965
+5.200000 8071.394043 0.096509
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.2000_0.0965
+ ok time taken= 1.811051e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.300
+ ok read halo catalogue = 8.598216e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.300
+ ok read nbody output = 4.695954e+00
+ok cic_vmass= 1.670983e+01
+ok smoothing = 1.670221e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.3000
+ mass avg. x_HI=0.1219
+5.300000 8121.941406 0.121852
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.3000_0.1219
+ ok time taken= 1.810758e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.400
+ ok read halo catalogue = 9.990767e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.400
+ ok read nbody output = 4.687823e+00
+ok cic_vmass= 1.669378e+01
+ok smoothing = 1.674918e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.4000
+ mass avg. x_HI=0.1511
+5.400000 8171.307129 0.151103
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.4000_0.1511
+ ok time taken= 1.814465e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.500
+ ok read halo catalogue = 1.150685e-01
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.500
+ ok read nbody output = 4.723535e+00
+ok cic_vmass= 1.670616e+01
+ok smoothing = 1.672835e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.5000
+ mass avg. x_HI=0.1837
+5.500000 8219.536133 0.183722
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.5000_0.1837
+ ok time taken= 1.810865e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.600
+ ok read halo catalogue = 9.638323e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.600
+ ok read nbody output = 4.683316e+00
+ok cic_vmass= 1.668064e+01
+ok smoothing = 1.666440e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.6000
+ mass avg. x_HI=0.2207
+5.600000 8266.670898 0.220673
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.6000_0.2207
+ ok time taken= 1.811247e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.700
+ ok read halo catalogue = 8.180635e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.700
+ ok read nbody output = 4.680904e+00
+ok cic_vmass= 1.667148e+01
+ok smoothing = 1.666745e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.7000
+ mass avg. x_HI=0.2605
+5.700000 8312.763672 0.260502
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.7000_0.2605
+ ok time taken= 1.812772e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.800
+ ok read halo catalogue = 8.291340e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.800
+ ok read nbody output = 4.706588e+00
+ok cic_vmass= 1.665463e+01
+ok smoothing = 1.660033e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.8000
+ mass avg. x_HI=0.3023
+5.800000 8357.833984 0.302275
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.8000_0.3023
+ ok time taken= 1.813401e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_5.900
+ ok read halo catalogue = 1.329693e-01
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_5.900
+ ok read nbody output = 4.698783e+00
+ok cic_vmass= 1.664841e+01
+ok smoothing = 1.665176e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map5.9000
+ mass avg. x_HI=0.3449
+5.900000 8401.931641 0.344883
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_5.9000_0.3449
+ ok time taken= 1.811037e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.000
+ ok read halo catalogue = 8.010461e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.000
+ ok read nbody output = 4.681738e+00
+ok cic_vmass= 1.664195e+01
+ok smoothing = 1.662701e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.0000
+ mass avg. x_HI=0.3880
+6.000000 8445.086914 0.387965
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.0000_0.3880
+ ok time taken= 1.810996e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.100
+ ok read halo catalogue = 9.100216e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.100
+ ok read nbody output = 4.677284e+00
+ok cic_vmass= 1.663060e+01
+ok smoothing = 1.657831e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.1000
+ mass avg. x_HI=0.4292
+6.100000 8487.331055 0.429206
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.1000_0.4292
+ ok time taken= 1.810875e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.200
+ ok read halo catalogue = 8.677832e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.200
+ ok read nbody output = 4.714110e+00
+ok cic_vmass= 1.663074e+01
+ok smoothing = 1.659204e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.2000
+ mass avg. x_HI=0.4687
+6.200000 8528.694336 0.468719
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.2000_0.4687
+ ok time taken= 1.811231e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.300
+ ok read halo catalogue = 9.471389e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.300
+ ok read nbody output = 4.706833e+00
+ok cic_vmass= 1.661758e+01
+ok smoothing = 1.663373e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.3000
+ mass avg. x_HI=0.5062
+6.300000 8569.214844 0.506184
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.3000_0.5062
+ ok time taken= 1.811890e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.400
+ ok read halo catalogue = 8.590407e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.400
+ ok read nbody output = 4.703550e+00
+ok cic_vmass= 1.661972e+01
+ok smoothing = 1.656840e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.4000
+ mass avg. x_HI=0.5417
+6.400000 8608.916992 0.541653
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.4000_0.5417
+ ok time taken= 1.809837e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.500
+ ok read halo catalogue = 8.006913e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.500
+ ok read nbody output = 4.715681e+00
+ok cic_vmass= 1.659431e+01
+ok smoothing = 1.650794e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.5000
+ mass avg. x_HI=0.5746
+6.500000 8647.822266 0.574584
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.5000_0.5746
+ ok time taken= 1.810094e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.600
+ ok read halo catalogue = 6.949568e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.600
+ ok read nbody output = 4.711882e+00
+ok cic_vmass= 1.658989e+01
+ok smoothing = 1.654548e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.6000
+ mass avg. x_HI=0.6051
+6.600000 8685.961914 0.605141
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.6000_0.6051
+ ok time taken= 1.810071e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.700
+ ok read halo catalogue = 8.132623e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.700
+ ok read nbody output = 4.692218e+00
+ok cic_vmass= 1.658090e+01
+ok smoothing = 1.648070e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.7000
+ mass avg. x_HI=0.6340
+6.700000 8723.355469 0.633970
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.7000_0.6340
+ ok time taken= 1.809883e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.800
+ ok read halo catalogue = 4.992838e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.800
+ ok read nbody output = 4.678485e+00
+ok cic_vmass= 1.657538e+01
+ok smoothing = 1.645883e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.8000
+ mass avg. x_HI=0.6605
+6.800000 8760.043945 0.660503
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.8000_0.6605
+ ok time taken= 1.809187e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_6.900
+ ok read halo catalogue = 5.538286e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_6.900
+ ok read nbody output = 4.693936e+00
+ok cic_vmass= 1.656570e+01
+ok smoothing = 1.644654e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map6.9000
+ mass avg. x_HI=0.6854
+6.900000 8796.025391 0.685400
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_6.9000_0.6854
+ ok time taken= 1.809657e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.000
+ ok read halo catalogue = 7.237551e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.000
+ ok read nbody output = 4.699295e+00
+ok cic_vmass= 1.655953e+01
+ok smoothing = 1.643351e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.0000
+ mass avg. x_HI=0.7086
+7.000000 8831.333984 0.708592
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.0000_0.7086
+ ok time taken= 1.809517e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.100
+ ok read halo catalogue = 9.235412e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.100
+ ok read nbody output = 4.689022e+00
+ok cic_vmass= 1.655398e+01
+ok smoothing = 1.645441e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.1000
+ mass avg. x_HI=0.7301
+7.100000 8865.992188 0.730121
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.1000_0.7301
+ ok time taken= 1.812723e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.200
+ ok read halo catalogue = 3.960658e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.200
+ ok read nbody output = 4.682908e+00
+ok cic_vmass= 1.655446e+01
+ok smoothing = 1.647302e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.2000
+ mass avg. x_HI=0.7502
+7.200000 8900.016602 0.750232
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.2000_0.7502
+ ok time taken= 1.809835e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.300
+ ok read halo catalogue = 4.248210e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.300
+ ok read nbody output = 4.720200e+00
+ok cic_vmass= 1.654271e+01
+ok smoothing = 1.643596e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.3000
+ mass avg. x_HI=0.7690
+7.300000 8933.431641 0.768968
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.3000_0.7690
+ ok time taken= 1.809751e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.400
+ ok read halo catalogue = 5.316546e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.400
+ ok read nbody output = 4.703700e+00
+ok cic_vmass= 1.653937e+01
+ok smoothing = 1.638848e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.4000
+ mass avg. x_HI=0.7863
+7.400000 8966.241211 0.786330
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.4000_0.7863
+ ok time taken= 1.809992e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.500
+ ok read halo catalogue = 4.241559e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.500
+ ok read nbody output = 4.687840e+00
+ok cic_vmass= 1.653826e+01
+ok smoothing = 1.643710e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.5000
+ mass avg. x_HI=0.8026
+7.500000 8998.476562 0.802577
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.5000_0.8026
+ ok time taken= 1.810395e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.600
+ ok read halo catalogue = 4.102639e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.600
+ ok read nbody output = 4.699830e+00
+ok cic_vmass= 1.653105e+01
+ok smoothing = 1.641162e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.6000
+ mass avg. x_HI=0.8178
+7.600000 9030.149414 0.817751
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.6000_0.8178
+ ok time taken= 1.810787e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.700
+ ok read halo catalogue = 3.520217e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.700
+ ok read nbody output = 4.679344e+00
+ok cic_vmass= 1.652730e+01
+ok smoothing = 1.638929e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.7000
+ mass avg. x_HI=0.8318
+7.700000 9061.278320 0.831766
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.7000_0.8318
+ ok time taken= 1.810379e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.800
+ ok read halo catalogue = 3.159647e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.800
+ ok read nbody output = 4.688806e+00
+ok cic_vmass= 1.651954e+01
+ok smoothing = 1.637114e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.8000
+ mass avg. x_HI=0.8449
+7.800000 9091.875977 0.844943
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.8000_0.8449
+ ok time taken= 1.808075e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_7.900
+ ok read halo catalogue = 4.863409e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_7.900
+ ok read nbody output = 4.668506e+00
+ok cic_vmass= 1.651264e+01
+ok smoothing = 1.632899e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map7.9000
+ mass avg. x_HI=0.8571
+7.900000 9121.955078 0.857086
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_7.9000_0.8571
+ ok time taken= 1.808006e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.000
+ ok read halo catalogue = 4.282212e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.000
+ ok read nbody output = 4.678628e+00
+ok cic_vmass= 1.650802e+01
+ok smoothing = 1.632630e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.0000
+ mass avg. x_HI=0.8683
+8.000000 9151.533203 0.868275
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.0000_0.8683
+ ok time taken= 1.807775e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.100
+ ok read halo catalogue = 5.760598e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.100
+ ok read nbody output = 4.676951e+00
+ok cic_vmass= 1.650344e+01
+ok smoothing = 1.636405e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.1000
+ mass avg. x_HI=0.8788
+8.100000 9180.625977 0.878754
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.1000_0.8788
+ ok time taken= 1.809895e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.200
+ ok read halo catalogue = 4.323194e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.200
+ ok read nbody output = 4.662428e+00
+ok cic_vmass= 1.649944e+01
+ok smoothing = 1.636420e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.2000
+ mass avg. x_HI=0.8886
+8.200000 9209.246094 0.888579
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.2000_0.8886
+ ok time taken= 1.811162e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.300
+ ok read halo catalogue = 4.437335e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.300
+ ok read nbody output = 4.685880e+00
+ok cic_vmass= 1.649703e+01
+ok smoothing = 1.634143e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.3000
+ mass avg. x_HI=0.8977
+8.300000 9237.392578 0.897743
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.3000_0.8977
+ ok time taken= 1.815005e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.400
+ ok read halo catalogue = 2.598885e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.400
+ ok read nbody output = 4.681031e+00
+ok cic_vmass= 1.649631e+01
+ok smoothing = 1.640340e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.4000
+ mass avg. x_HI=0.9062
+8.400000 9265.105469 0.906212
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.4000_0.9062
+ ok time taken= 1.808808e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.500
+ ok read halo catalogue = 3.193343e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.500
+ ok read nbody output = 4.676547e+00
+ok cic_vmass= 1.649277e+01
+ok smoothing = 1.633504e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.5000
+ mass avg. x_HI=0.9140
+8.500000 9292.372070 0.913965
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.5000_0.9140
+ ok time taken= 1.812652e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.600
+ ok read halo catalogue = 4.155655e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.600
+ ok read nbody output = 4.683227e+00
+ok cic_vmass= 1.648770e+01
+ok smoothing = 1.633705e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.6000
+ mass avg. x_HI=0.9211
+8.600000 9319.220703 0.921070
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.6000_0.9211
+ ok time taken= 1.811120e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.700
+ ok read halo catalogue = 2.857347e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.700
+ ok read nbody output = 4.685416e+00
+ok cic_vmass= 1.648206e+01
+ok smoothing = 1.635927e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.7000
+ mass avg. x_HI=0.9277
+8.700000 9345.651367 0.927730
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.7000_0.9277
+ ok time taken= 1.808024e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.800
+ ok read halo catalogue = 3.386499e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.800
+ ok read nbody output = 4.675371e+00
+ok cic_vmass= 1.647940e+01
+ok smoothing = 1.635346e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.8000
+ mass avg. x_HI=0.9339
+8.800000 9371.667969 0.933870
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.8000_0.9339
+ ok time taken= 1.811230e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_8.900
+ ok read halo catalogue = 1.494999e-01
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_8.900
+ ok read nbody output = 4.688451e+00
+ok cic_vmass= 1.648100e+01
+ok smoothing = 1.633901e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map8.9000
+ mass avg. x_HI=0.9395
+8.900000 9397.299805 0.939538
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_8.9000_0.9395
+ ok time taken= 1.807889e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.000
+ ok read halo catalogue = 2.659672e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.000
+ ok read nbody output = 4.692496e+00
+ok cic_vmass= 1.647741e+01
+ok smoothing = 1.637083e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.0000
+ mass avg. x_HI=0.9448
+9.000000 9422.543945 0.944780
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.0000_0.9448
+ ok time taken= 1.807749e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.100
+ ok read halo catalogue = 3.158263e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.100
+ ok read nbody output = 4.687582e+00
+ok cic_vmass= 1.647461e+01
+ok smoothing = 1.633450e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.1000
+ mass avg. x_HI=0.9496
+9.100000 9447.409180 0.949561
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.1000_0.9496
+ ok time taken= 1.807766e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.200
+ ok read halo catalogue = 2.404909e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.200
+ ok read nbody output = 4.704593e+00
+ok cic_vmass= 1.647070e+01
+ok smoothing = 1.632135e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.2000
+ mass avg. x_HI=0.9540
+9.200000 9471.919922 0.954003
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.2000_0.9540
+ ok time taken= 1.807458e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.300
+ ok read halo catalogue = 3.568966e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.300
+ ok read nbody output = 4.676816e+00
+ok cic_vmass= 1.646749e+01
+ok smoothing = 1.637809e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.3000
+ mass avg. x_HI=0.9581
+9.300000 9496.067383 0.958092
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.3000_0.9581
+ ok time taken= 1.810825e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.400
+ ok read halo catalogue = 3.538539e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.400
+ ok read nbody output = 4.678296e+00
+ok cic_vmass= 1.646535e+01
+ok smoothing = 1.632883e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.4000
+ mass avg. x_HI=0.9619
+9.400000 9519.867188 0.961898
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.4000_0.9619
+ ok time taken= 1.808642e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.500
+ ok read halo catalogue = 2.310899e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.500
+ ok read nbody output = 4.682279e+00
+ok cic_vmass= 1.646771e+01
+ok smoothing = 1.636670e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.5000
+ mass avg. x_HI=0.9654
+9.500000 9543.320312 0.965369
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.5000_0.9654
+ ok time taken= 1.808274e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.600
+ ok read halo catalogue = 2.848014e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.600
+ ok read nbody output = 4.667871e+00
+ok cic_vmass= 1.646242e+01
+ok smoothing = 1.632714e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.6000
+ mass avg. x_HI=0.9686
+9.600000 9566.446289 0.968550
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.6000_0.9686
+ ok time taken= 1.807671e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.700
+ ok read halo catalogue = 2.272892e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.700
+ ok read nbody output = 4.693838e+00
+ok cic_vmass= 1.646160e+01
+ok smoothing = 1.635980e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.7000
+ mass avg. x_HI=0.9714
+9.700000 9589.250977 0.971436
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.7000_0.9714
+ ok time taken= 1.809673e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.800
+ ok read halo catalogue = 3.037466e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.800
+ ok read nbody output = 4.673890e+00
+ok cic_vmass= 1.646093e+01
+ok smoothing = 1.631574e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.8000
+ mass avg. x_HI=0.9741
+9.800000 9611.729492 0.974076
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.8000_0.9741
+ ok time taken= 1.808435e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_9.900
+ ok read halo catalogue = 1.442615e-01
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_9.900
+ ok read nbody output = 4.704058e+00
+ok cic_vmass= 1.646142e+01
+ok smoothing = 1.630198e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map9.9000
+ mass avg. x_HI=0.9765
+9.900000 9633.912109 0.976528
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_9.9000_0.9765
+ ok time taken= 1.810361e+01
+
+ opening halo_catalogue_  ../../Save/Run/halo_catalogue_10.000
+ ok read halo catalogue = 2.192216e-02
+ opening sampled  ../../Save/Run/sampled_outputs/sampled.nbody_10.000
+ ok read nbody output = 4.676736e+00
+ok cic_vmass= 1.646055e+01
+ok smoothing = 1.633385e+01
+ opening Hi map  ../../Save/Run/ionz_out_lc/HI_map10.0000
+ mass avg. x_HI=0.9787
+10.000000 9655.778320 0.978704
+ opening Hi map part ../../Save/Run/ionz_out_lc/HI_part_10.0000_0.9787
+ ok time taken= 1.808089e+01
+
+done. Total time taken = 0hr 47min 59sec
+ionz lc Done
+N=1536, LL=0.140000
+No of threads = 32
+inR=8723.355469, finR=8938.395508 in Mpc
+theta_max=0.012029, delta_theta=0.000016
+nui=184.468292 in MHz.
+7 no. of outputs are needed to create the lightcone.
+ll = 17  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_6.7000_0.6340
+File opened ../../Save/Run/ionz_out_lc/HI_part_6.7000_0.6340
+ll = 18  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_6.8000_0.6605
+File opened ../../Save/Run/ionz_out_lc/HI_part_6.8000_0.6605
+ll = 19  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_6.9000_0.6854
+File opened ../../Save/Run/ionz_out_lc/HI_part_6.9000_0.6854
+ll = 20  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_7.0000_0.7086
+File opened ../../Save/Run/ionz_out_lc/HI_part_7.0000_0.7086
+ll = 21  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_7.1000_0.7301
+File opened ../../Save/Run/ionz_out_lc/HI_part_7.1000_0.7301
+ll = 22  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_7.2000_0.7502
+File opened ../../Save/Run/ionz_out_lc/HI_part_7.2000_0.7502
+ll = 23  Ninp = 24
+File trying ../../Save/Run/ionz_out_lc/HI_part_7.3000_0.7690
+File opened ../../Save/Run/ionz_out_lc/HI_part_7.3000_0.7690
+nu_f=170.823883 in MHz. last step done.
+MM=56623104, newMM=55178798
+nu_cuti=0.341339, nu_cutf=0.152267 in MHz.
+Bandwidth=13.644409 in MHz. delta_nu=0.071065
+After RSD, bandwidth is reduced to 13.150803 in MHz at nu_c=177.551559 or zc=6.999962.
+The delta_nu=0.068494 in MHz
+After RSD, z_i=6.714274 and z_f=7.307625.
+mass fraction at r_f = 332.408936.
+robar=7.529829
+avg. Tb=1084.172289 mk
+avg. Tb=953.126189 mk
+avg. Tb=945.697503 mk
+avg. Tb=940.408792 mk
+avg. Tb=941.482153 mk
+avg. Tb=946.216641 mk
+avg. Tb=951.004258 mk
+avg. Tb=964.143680 mk
+avg. Tb=979.316331 mk
+avg. Tb=983.319986 mk
+avg. Tb=976.545754 mk
+avg. Tb=979.186380 mk
+avg. Tb=976.692833 mk
+avg. Tb=971.779052 mk
+avg. Tb=966.194087 mk
+avg. Tb=982.830625 mk
+avg. Tb=982.101032 mk
+avg. Tb=976.548589 mk
+avg. Tb=972.288519 mk
+avg. Tb=986.597093 mk
+avg. Tb=993.164503 mk
+avg. Tb=996.028137 mk
+avg. Tb=993.705198 mk
+avg. Tb=997.572240 mk
+avg. Tb=1003.768877 mk
+avg. Tb=1000.468008 mk
+avg. Tb=987.433317 mk
+avg. Tb=977.507765 mk
+avg. Tb=989.267858 mk
+avg. Tb=1027.087292 mk
+avg. Tb=1083.167810 mk
+avg. Tb=1063.133137 mk
+avg. Tb=1052.791720 mk
+avg. Tb=1054.674798 mk
+avg. Tb=1068.935519 mk
+avg. Tb=1063.558847 mk
+avg. Tb=1056.866608 mk
+avg. Tb=1075.268532 mk
+avg. Tb=1079.478470 mk
+avg. Tb=1066.218822 mk
+avg. Tb=1034.555500 mk
+avg. Tb=1019.642352 mk
+avg. Tb=1023.674198 mk
+avg. Tb=1020.620048 mk
+avg. Tb=1021.854786 mk
+avg. Tb=1019.142168 mk
+avg. Tb=1009.431541 mk
+avg. Tb=993.876514 mk
+avg. Tb=997.292742 mk
+avg. Tb=994.838106 mk
+avg. Tb=1002.410245 mk
+avg. Tb=1009.238696 mk
+avg. Tb=1006.365559 mk
+avg. Tb=1014.593096 mk
+avg. Tb=1030.306348 mk
+avg. Tb=1027.180657 mk
+avg. Tb=1037.015495 mk
+avg. Tb=1043.553111 mk
+avg. Tb=1046.119399 mk
+avg. Tb=1043.555360 mk
+avg. Tb=1032.773468 mk
+avg. Tb=1040.478895 mk
+avg. Tb=1058.105686 mk
+avg. Tb=1077.208049 mk
+avg. Tb=1120.449735 mk
+avg. Tb=1092.989205 mk
+avg. Tb=1062.191729 mk
+avg. Tb=1045.783785 mk
+avg. Tb=1051.362533 mk
+avg. Tb=1065.728353 mk
+avg. Tb=1069.533063 mk
+avg. Tb=1076.084856 mk
+avg. Tb=1067.949524 mk
+avg. Tb=1063.471544 mk
+avg. Tb=1042.538253 mk
+avg. Tb=1054.598775 mk
+avg. Tb=1056.808565 mk
+avg. Tb=1049.730096 mk
+avg. Tb=1051.887634 mk
+avg. Tb=1050.100704 mk
+avg. Tb=1043.494096 mk
+avg. Tb=1035.234882 mk
+avg. Tb=1034.773118 mk
+avg. Tb=1038.708342 mk
+avg. Tb=1028.011615 mk
+avg. Tb=1025.596313 mk
+avg. Tb=1038.089827 mk
+avg. Tb=1033.631882 mk
+avg. Tb=1037.108129 mk
+avg. Tb=1036.863824 mk
+avg. Tb=1033.052590 mk
+avg. Tb=1038.161205 mk
+avg. Tb=1050.791217 mk
+avg. Tb=1051.878093 mk
+avg. Tb=1062.575505 mk
+avg. Tb=1085.562027 mk
+avg. Tb=1134.099786 mk
+avg. Tb=1145.439037 mk
+avg. Tb=1121.053782 mk
+avg. Tb=1106.284157 mk
+avg. Tb=1108.620411 mk
+avg. Tb=1117.893661 mk
+avg. Tb=1120.132699 mk
+avg. Tb=1121.007289 mk
+avg. Tb=1131.278715 mk
+avg. Tb=1142.710739 mk
+avg. Tb=1147.098587 mk
+avg. Tb=1145.221635 mk
+avg. Tb=1152.558211 mk
+avg. Tb=1160.974598 mk
+avg. Tb=1135.899246 mk
+avg. Tb=1134.830435 mk
+avg. Tb=1138.147447 mk
+avg. Tb=1140.640886 mk
+avg. Tb=1128.034824 mk
+avg. Tb=1117.297307 mk
+avg. Tb=1112.832910 mk
+avg. Tb=1121.009430 mk
+avg. Tb=1120.674278 mk
+avg. Tb=1130.639931 mk
+avg. Tb=1133.266802 mk
+avg. Tb=1133.289485 mk
+avg. Tb=1120.748802 mk
+avg. Tb=1084.501272 mk
+avg. Tb=1076.340328 mk
+avg. Tb=1093.741713 mk
+avg. Tb=1124.696177 mk
+avg. Tb=1153.773305 mk
+avg. Tb=1201.364706 mk
+avg. Tb=1205.777154 mk
+avg. Tb=1176.307678 mk
+avg. Tb=1155.115574 mk
+avg. Tb=1135.982541 mk
+avg. Tb=1130.027362 mk
+avg. Tb=1111.589652 mk
+avg. Tb=1103.948305 mk
+avg. Tb=1100.123703 mk
+avg. Tb=1109.276111 mk
+avg. Tb=1117.454514 mk
+avg. Tb=1120.754818 mk
+avg. Tb=1123.955285 mk
+avg. Tb=1119.216300 mk
+avg. Tb=1125.106600 mk
+avg. Tb=1124.765310 mk
+avg. Tb=1137.998090 mk
+avg. Tb=1151.840610 mk
+avg. Tb=1146.562395 mk
+avg. Tb=1159.964059 mk
+avg. Tb=1159.841558 mk
+avg. Tb=1177.492632 mk
+avg. Tb=1178.891307 mk
+avg. Tb=1178.759188 mk
+avg. Tb=1185.082724 mk
+avg. Tb=1177.517776 mk
+avg. Tb=1175.642333 mk
+avg. Tb=1166.541976 mk
+avg. Tb=1167.902409 mk
+avg. Tb=1170.984164 mk
+avg. Tb=1195.702695 mk
+avg. Tb=1245.471849 mk
+avg. Tb=1247.642410 mk
+avg. Tb=1211.030921 mk
+avg. Tb=1196.130969 mk
+avg. Tb=1187.934729 mk
+avg. Tb=1199.352676 mk
+avg. Tb=1218.962978 mk
+avg. Tb=1224.030186 mk
+avg. Tb=1212.839664 mk
+avg. Tb=1214.341166 mk
+avg. Tb=1204.611581 mk
+avg. Tb=1195.958278 mk
+avg. Tb=1185.767404 mk
+avg. Tb=1171.083101 mk
+avg. Tb=1176.625475 mk
+avg. Tb=1198.584417 mk
+avg. Tb=1212.165717 mk
+avg. Tb=1216.319256 mk
+avg. Tb=1206.827474 mk
+avg. Tb=1205.018318 mk
+avg. Tb=1211.662500 mk
+avg. Tb=1205.905914 mk
+avg. Tb=1196.522532 mk
+avg. Tb=1181.056446 mk
+avg. Tb=1173.713861 mk
+avg. Tb=1178.520283 mk
+avg. Tb=1171.605530 mk
+avg. Tb=1155.275208 mk
+avg. Tb=1158.247949 mk
+avg. Tb=1181.228466 mk
+avg. Tb=1227.076336 mk
+avg. Tb=1250.970551 mk
+avg. Tb=1215.096687 mk
+done. Total time taken = 0hr 0min 45sec
+lightcone Done
+“Job finished successfully”

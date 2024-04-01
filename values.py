@@ -14,14 +14,14 @@ omega_l = 0.6817
 spectral_index =0.9619
 omega_baryon = 0.04902
 sigma_8 = 0.8347
-box=pow(2,8)
-fraction_fill = 1
-LL= 0.07
+box=16
+fraction_fill = 2
+LL= 0.14
 a_initial = 0.008
 delta_a= 0.004
 output_flag=0
 pk_flag=1
-redshift_values = Zarray(8.560,9,0.01)[::-1]
+redshift_values = Zarray(5,10,0.1)[::-1]
 Len_redshift = len(redshift_values)
 
 

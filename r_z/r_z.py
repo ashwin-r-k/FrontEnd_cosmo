@@ -23,13 +23,6 @@ lines_r_z = f"""{omega_m} {omegabh2} {hh}
 {Len_redshift}
 {redshift_values_str}"""
 
-if not os.path.exists("../../Save/Run/inputs/ "): 
-      
-    # if the demo_folder directory is not present  
-    # then create it. 
-    os.makedirs("../../Save/Run/inputs/ ") 
-    
-
 print(lines_r_z)
 with open('../../Save/Run/inputs/input.r_z', 'w') as file:  
         # Using the writelines function  

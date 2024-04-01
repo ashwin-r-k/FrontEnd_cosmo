@@ -1,3 +1,6 @@
+sudo apt-get install libc6-dev git make gcc fftw3 
+
+
 mkdir name
 mkdir /gpfs-home/m220590ph/softwares
 
@@ -12,7 +15,7 @@ cd  fftw-3.3.10
 # ./configure --enable-float --enable-threads --enable-openmp prefix=/gpfs-home/m220590ph/softwares/fftw/
 #./configure --enable-float --enable-threads --enable-openmp prefix=/gpfs-scratch/m220590ph/softwares/fftw/
 
-./configure --enable-float --enable-threads --enable-openmp prefix=$HOOOM/softwares/fftw/
+./configure --enable-float --enable-threads --enable-openmp prefix=$HOME/softwares/fftw/
 
 make 
 make install
@@ -53,7 +56,9 @@ cd ffmpeg-6.1.1
 ./configure --prefix="$HOME/softwares/ffmpeg/" --enable-static --disable-shared --enable-gpl --disable-debug --disable-doc --enable-libaom --enable-gnutls
 make
 make install
+sudo apt-get install libgnutls28-dev gnutls-bin libgnutls30 libunistring-dev
 
+sudo apt install ffmpeg #WORKS
 plt.rcParams['animation.ffmpeg_path']=/home/ashwin/softwares/ffmpeg/bin/ffmpeg
 
 

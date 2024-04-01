@@ -28,7 +28,7 @@ ionz_main: ionz_main.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o 
 	$(CC) $(CFLAGS) -o ionz_main  ionz_main.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  $(LINKLIB)
 	rm -rf *.o
 	rm -rf *~
-
+	
 ionz_main.o:	ionz_main.c
 	$(CC) -c $(CFLAGS) $(INCLUDE) ionz_main.c $(LINKLIB)
 
@@ -85,3 +85,12 @@ funcs_fit.o:	funcs_fit.c
 clean:
 	rm -rf *.o
 	rm -rf *~
+
+#For variable
+
+ionz_main_var_nion: ionz_main_var_nion.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  
+	$(CC) $(CFLAGS) -o ionz_main_var_nion  ionz_main_var_nion.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  $(LINKLIB)
+	rm -rf *.o
+	rm -rf *~
+ionz_main_var_nion.o:	ionz_main_var_nion.c
+	$(CC) -c $(CFLAGS) $(INCLUDE) ionz_main_var_nion.c $(LINKLIB)

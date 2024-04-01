@@ -96,7 +96,7 @@ def update(frame):
   #  pl.imshow(av_Tpl,origin='lower')
     im.set_array(av_Tpl)
 
-    z=re.search(r'([0-9]+)', filename).group()
+    z=re.search(r"[-+]?\d*\.\d+|\d+", filename).group()
     ax.set_title(f'Z= {z}')
     return im,
 

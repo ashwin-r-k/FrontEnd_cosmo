@@ -12,10 +12,12 @@ import matplotlib.animation as animation
 #plt.rcParams['animation.ffmpeg_path']='/gpfs-home/m220590ph/softwares/ffmpeg/bin/ffmpeg'
 
 print(os.getcwd())
-
+os.chdir("../")
 location_home = os.getcwd()
 location_Save = "Save"
 location_Save = os.path.join(location_home,location_Save)
+
+print(location_Save)
 
 #latest
 #location_backup = max([os.path.join(location_Save,d) for d in os.listdir(location_Save)], key=os.path.getmtime)
@@ -77,8 +79,10 @@ av_Tpl=np.mean(Tpl, axis=0) # stacking (averaging) the 5 slices along x-axis(axi
 fig, ax = plt.subplots(figsize=(10.24,10.24))
 plt.axis('off')
 fig.tight_layout(pad=0,h_pad=None, w_pad=None)
-im = ax.imshow(av_Tpl, aspect="equal", cmap='gray')
+im = ax.imshow(av_Tpl, aspect="equal", cmap='viridis')
 #cbar = fig.colorbar(im, pad=0.01, fraction=0.047)
+
+
 
 def update(frame):
     filename = intrestFiles[frame]
@@ -104,13 +108,13 @@ anim = FuncAnimation(fig, update, frames=len(intrestFiles), interval=1000, blit=
 
 #animation.save(f'Save/animation/mov_{intrestFolder}_{search}.mp4', writer='ffmpeg', fps=1)
 
-f = f'Save/animation/mov_{intrestFolder}_{search}.mp4'
+f = f'Save/animation/mov_{intrestFolder}_{search}_clean.mp4'
 writervideo = animation.FFMpegWriter(fps=5) 
 anim.save(f, writer=writervideo)
 
-f = f'Save/animation/mov_{intrestFolder}_{search}.gif'
+f = f'Save/animation/mov_{intrestFolder}_{search}_clean.gif'
 writergif = animation.PillowWriter(fps=30) 
 anim.save(f, writer=writergif)
 
 
-print("Animination saved as "+f'Save/animation/mov_{intrestFolder}_{search}.mp4')
+print("Animination saved as "+f'Save/animation/mov_{intrestFolder}_{search}_clean.mp4')

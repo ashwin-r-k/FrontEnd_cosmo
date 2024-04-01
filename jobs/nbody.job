@@ -3,8 +3,9 @@
 #SBATCH --partition=shortq
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --time=24:00:00
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=16
+#SBATCH --output=./output/%x_%j.out
+#SBATCH --error=./error/%x_%j.err
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
 #For jobs supporting OpenMP, assign the value of the requested CPU cores to the OMP_NUM_THREADS variable
@@ -12,6 +13,6 @@ export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
 
 cd /gpfs-scratch/m220590ph/FrontEnd_cosmo
-bash main_fof_ionz_plot.sh
+bash main_nbody.sh
 echo “Job finished successfully”
 

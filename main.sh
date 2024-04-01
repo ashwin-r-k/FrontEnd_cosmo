@@ -55,6 +55,7 @@ fi
 #LOC=/gpfs-scratch/m220590ph/FrontEnd_cosmo/
 
 cd "$LOC" || exit 1
+mkdir -p ../Save/animation
 
 bash clean  || exit 1
 
@@ -93,6 +94,7 @@ cd "$LOC" || exit 1
 echo "Exicution Completed"
 
 bash backupOutput
-
+bash anim.sh
 #plot.
-python3 plott_visual.py || exit 1
+#python3 plott_visual.py || exit 1
+#python3 plott_visual_onlyuni.py || exit 1

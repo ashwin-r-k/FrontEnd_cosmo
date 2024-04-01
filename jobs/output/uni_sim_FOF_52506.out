@@ -1,0 +1,324 @@
+Running command for HPC
+Searching for files with the term: output.nbody
+Searching for files with the term: input.nbody
+Searching for files with the term: pk.nbody
+Searching for files with the term: values.py
+Search and move process complete.
+/gpfs-scratch/m220590ph/FrontEnd_cosmo/FoF-Halo-finder
+(10.0)nbody output_flag=0, NF=2
+Total number of clusters=27485
+(for 10.0) Time taken = 0hr 15min 2sec
+(9.9)nbody output_flag=0, NF=2
+Total number of clusters=30131
+(for 9.9) Time taken = 0hr 14min 56sec
+(9.8)nbody output_flag=0, NF=2
+Total number of clusters=33144
+(for 9.8) Time taken = 0hr 14min 57sec
+(9.7)nbody output_flag=0, NF=2
+Total number of clusters=36418
+(for 9.7) Time taken = 0hr 14min 59sec
+(9.6)nbody output_flag=0, NF=2
+Total number of clusters=39978
+(for 9.6) Time taken = 0hr 15min 1sec
+(9.5)nbody output_flag=0, NF=2
+Total number of clusters=43830
+(for 9.5) Time taken = 0hr 15min 3sec
+(9.4)nbody output_flag=0, NF=2
+Total number of clusters=47985
+(for 9.4) Time taken = 0hr 15min 5sec
+(9.3)nbody output_flag=0, NF=2
+Total number of clusters=52582
+(for 9.3) Time taken = 0hr 15min 7sec
+(9.2)nbody output_flag=0, NF=2
+Total number of clusters=57375
+(for 9.2) Time taken = 0hr 15min 9sec
+(9.1)nbody output_flag=0, NF=2
+Total number of clusters=62514
+(for 9.1) Time taken = 0hr 15min 12sec
+(9.0)nbody output_flag=0, NF=2
+Total number of clusters=67953
+(for 9.0) Time taken = 0hr 15min 15sec
+(8.9)nbody output_flag=0, NF=2
+Total number of clusters=74077
+(for 8.9) Time taken = 0hr 15min 18sec
+(8.8)nbody output_flag=0, NF=2
+Total number of clusters=80518
+(for 8.8) Time taken = 0hr 15min 18sec
+(8.7)nbody output_flag=0, NF=2
+Total number of clusters=87416
+(for 8.7) Time taken = 0hr 15min 19sec
+(8.6)nbody output_flag=0, NF=2
+Total number of clusters=95011
+(for 8.6) Time taken = 0hr 15min 21sec
+(8.5)nbody output_flag=0, NF=2
+Total number of clusters=102778
+(for 8.5) Time taken = 0hr 15min 24sec
+(8.4)nbody output_flag=0, NF=2
+Total number of clusters=111251
+(for 8.4) Time taken = 0hr 15min 27sec
+(8.3)nbody output_flag=0, NF=2
+Total number of clusters=120486
+(for 8.3) Time taken = 0hr 15min 29sec
+(8.2)nbody output_flag=0, NF=2
+Total number of clusters=130253
+(for 8.2) Time taken = 0hr 15min 32sec
+(8.1)nbody output_flag=0, NF=2
+Total number of clusters=140552
+(for 8.1) Time taken = 0hr 15min 35sec
+(8.0)nbody output_flag=0, NF=2
+Total number of clusters=151278
+(for 8.0) Time taken = 0hr 15min 39sec
+(7.9)nbody output_flag=0, NF=2
+Total number of clusters=162569
+(for 7.9) Time taken = 0hr 15min 43sec
+(7.8)nbody output_flag=0, NF=2
+Total number of clusters=175037
+(for 7.8) Time taken = 0hr 15min 52sec
+(7.7)nbody output_flag=0, NF=2
+Total number of clusters=187968
+(for 7.7) Time taken = 0hr 15min 49sec
+(7.6)nbody output_flag=0, NF=2
+Total number of clusters=201314
+(for 7.6) Time taken = 0hr 15min 52sec
+(7.5)nbody output_flag=0, NF=2
+Total number of clusters=215730
+(for 7.5) Time taken = 0hr 15min 56sec
+(7.4)nbody output_flag=0, NF=2
+Total number of clusters=230907
+(for 7.4) Time taken = 0hr 16min 0sec
+(7.3)nbody output_flag=0, NF=2
+Total number of clusters=246775
+(for 7.3) Time taken = 0hr 16min 5sec
+(7.2)nbody output_flag=0, NF=2
+Total number of clusters=263488
+(for 7.2) Time taken = 0hr 16min 8sec
+(7.1)nbody output_flag=0, NF=2
+Total number of clusters=280741
+(for 7.1) Time taken = 0hr 16min 12sec
+(7.0)nbody output_flag=0, NF=2
+Total number of clusters=298988
+(for 7.0) Time taken = 0hr 16min 17sec
+(6.9)nbody output_flag=0, NF=2
+Total number of clusters=317850
+(for 6.9) Time taken = 0hr 16min 22sec
+(6.8)nbody output_flag=0, NF=2
+Total number of clusters=337752
+(for 6.8) Time taken = 0hr 16min 28sec
+(6.7)nbody output_flag=0, NF=2
+Total number of clusters=358158
+(for 6.7) Time taken = 0hr 16min 33sec
+(6.6)nbody output_flag=0, NF=2
+Total number of clusters=379123
+(for 6.6) Time taken = 0hr 16min 38sec
+(6.5)nbody output_flag=0, NF=2
+Total number of clusters=401250
+(for 6.5) Time taken = 0hr 16min 45sec
+(6.4)nbody output_flag=0, NF=2
+Total number of clusters=423984
+(for 6.4) Time taken = 0hr 16min 51sec
+(6.3)nbody output_flag=0, NF=2
+Total number of clusters=447838
+(for 6.3) Time taken = 0hr 16min 58sec
+(6.2)nbody output_flag=0, NF=2
+Total number of clusters=471461
+(for 6.2) Time taken = 0hr 17min 5sec
+(6.1)nbody output_flag=0, NF=2
+Total number of clusters=496711
+(for 6.1) Time taken = 0hr 17min 13sec
+(6.0)nbody output_flag=0, NF=2
+Total number of clusters=522487
+(for 6.0) Time taken = 0hr 17min 21sec
+(5.9)nbody output_flag=0, NF=2
+Total number of clusters=548499
+(for 5.9) Time taken = 0hr 17min 29sec
+(5.8)nbody output_flag=0, NF=2
+Total number of clusters=575504
+(for 5.8) Time taken = 0hr 17min 39sec
+(5.7)nbody output_flag=0, NF=2
+Total number of clusters=602694
+(for 5.7) Time taken = 0hr 17min 49sec
+(5.6)nbody output_flag=0, NF=2
+Total number of clusters=630724
+(for 5.6) Time taken = 0hr 17min 59sec
+(5.5)nbody output_flag=0, NF=2
+Total number of clusters=658796
+(for 5.5) Time taken = 0hr 18min 10sec
+(5.4)nbody output_flag=0, NF=2
+Total number of clusters=686421
+(for 5.4) Time taken = 0hr 18min 23sec
+(5.3)nbody output_flag=0, NF=2
+Total number of clusters=715114
+(for 5.3) Time taken = 0hr 18min 36sec
+(5.2)nbody output_flag=0, NF=2
+Total number of clusters=743355
+(for 5.2) Time taken = 0hr 18min 50sec
+(5.1)nbody output_flag=0, NF=2
+Total number of clusters=773464
+(for 5.1) Time taken = 0hr 19min 5sec
+(5.0)nbody output_flag=0, NF=2
+Total number of clusters=802325
+(for 5.0) Time taken = 0hr 19min 21sec
+done FoF. Total time taken = 13hr 52min 1sec
+Searching for files with the term: output.nbody
+Moved output.nbody_10.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_5.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_6.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_7.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_8.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved output.nbody_9.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Searching for files with the term: input.nbody
+Moved input.nbody_comp to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Searching for files with the term: halo_catalogue
+Moved halo_catalogue_10.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_5.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_6.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_7.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_8.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.000 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.100 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.200 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.300 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.400 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.500 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.600 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.700 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.800 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved halo_catalogue_9.900 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Searching for files with the term: pk.nbody
+Moved pk.nbody10.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.1 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.2 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.3 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.4 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.5 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.6 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.7 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.8 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody5.9 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.1 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.2 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.3 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.4 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.5 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.6 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.7 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.8 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody6.9 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.1 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.2 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.3 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.4 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.5 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.6 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.7 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.8 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody7.9 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.1 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.2 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.3 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.4 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.5 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.6 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.7 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.8 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody8.9 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.0 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.1 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.2 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.3 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.4 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.5 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.6 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.7 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.8 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Moved pk.nbody9.9 to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Searching for files with the term: values.py
+Moved values.py to /gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga
+Search and move process complete.
+Directory '/gpfs-scratch/m220590ph/FrontEnd_cosmo/ReionYuga/ionz_out' does not exist.
+“Job finished successfully”

@@ -82,6 +82,7 @@ echo "Sampling Done"
 
 #mv -f sampling/input.sampling reionz_lc/input.sampling || exit 1
 
+
 cd reionz_lc || exit 1
 ./ionz_main || exit 1 &
 Ionz_lc_PID=$!

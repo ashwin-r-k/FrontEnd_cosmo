@@ -1,17 +1,16 @@
 #!/bin/bash
-#SBATCH --job-name=uni_sim_Nbody
+#SBATCH --job-name=uni_sim_124
 #SBATCH --partition=shortq
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --time=24:00:00
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=16
+#SBATCH --output=./output/%x_%j.out
+#SBATCH --error=./error/%x_%j.err
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
 #For jobs supporting OpenMP, assign the value of the requested CPU cores to the OMP_NUM_THREADS variable
 #that would be automatically passed to your command supporting OpenMP
 
-
 cd /gpfs-scratch/m220590ph/FrontEnd_cosmo
-bash main_nbody.sh
+bash main.sh
 echo “Job finished successfully”
-
