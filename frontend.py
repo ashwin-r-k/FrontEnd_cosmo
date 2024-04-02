@@ -15,9 +15,6 @@ location_sampling = "sampling"
 location_lightcone="lightcone"
 location_rion_lc="reionz_lc"
 
-location_py_env_act="fe-env/bin"
-
-
     
 def compile_prog(location,compile_command,location_home):
 # Compile the C++ program 

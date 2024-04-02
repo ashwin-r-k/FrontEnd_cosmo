@@ -2,6 +2,7 @@
 import subprocess
 import os
 from values import *
+import shlex, subprocess
 
 print(os.getcwd())
 
@@ -11,8 +12,6 @@ location_r_z = "r_z"
 location_sampling = "sampling"
 location_lightcone="lightcone"
 location_rion_lc="reionz_lc"
-
-location_py_env_act="fe-env/bin"
 
 
     
@@ -56,13 +55,6 @@ def run_prog(location,run_command,location_home):
         os.chdir(location_home)
 
 
-prog = "lightcone"
-compile_prog(location_lightcone,prog,location_home)
-
-prog = "ionz_main_var_nion"
-compile_prog(location_rion_lc,prog,location_home)
-
-
 lines = f"""{int(seed)} {int(Nbin)}
 {hh} {omega_m} {omega_l} {spectral_index}
 {omega_baryon} {sigma_8}
@@ -76,19 +68,20 @@ print(lines)
 
 
 location="lightcone"
-nion = Zarray(15,30,1)
+nion = Zarray(15,30,5)
 
-import shlex, subprocess
+
 
 def run_command( command ):
     subprocess.call(shlex.split(command))
 
 os.chdir(location_home)
+
 print("nion: ",nion)
 for nion_i in nion:
     #run_command = "bash test.sh {nion}"
     command=f"bash lightcone_nion_var.sh {nion_i}"
-    run_command(command)
     print(command)
-
+    run_command(command)
+    #then test code to handel all the running of files and then moving files and saving it in appropriate destinations.
 print("DONEEEEEe")

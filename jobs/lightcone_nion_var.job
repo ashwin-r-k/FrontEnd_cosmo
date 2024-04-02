@@ -1,8 +1,16 @@
 #!/bin/bash
+#SBATCH --job-name=lc_nion_var
+#SBATCH --partition=shortq
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=16
+#SBATCH --output=./output/%x_%j.out
+#SBATCH --error=./error/%x_%j.err
+export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
-nion=$1
+#For jobs supporting OpenMP, assign the value of the requested CPU cores to the OMP_NUM_THREADS variable
+#that would be automatically passed to your command supporting OpenMP
 
-echo "nion value in bash $nion "
 
 # Get the current username
 current_user=$(whoami)
@@ -58,42 +66,10 @@ fi
 
 #LOC=/gpfs-scratch/m220590ph/FrontEnd_cosmo/
 
-#clean the files
-cd ../Save/Run/
-rm -rv lightcone
-rm -rv ionz_out_lc
-
 cd "$LOC" || exit 1
-cd reionz_lc || exit 1
-./ionz_main_var_nion $nion || exit 1 &
-Ionz_lc_PID=$!
-wait $Ionz_lc_PID
-echo "ionz lc Done"
 
-
-cd "$LOC" || exit 1
-cd lightcone || exit 1
-python3 lightcone_run_all.py || exit 1
-echo "Waiting for python lightcone run all"
+python3 frontend.py || exit 1
 wait
-echo "lightcone Done"
+python3 lightcone_nion_var.py || exit 1
 
-# Moving the files
-cd "$LOC" || exit 1
-cd ../Save/Run/
-#ls -la
-echo $nion > ./lightcone/nion
-
-# Creating directories
-mkdir -p "./nion/$nion/"
-
-#ls -la
-
-# Moving folders
-mv lightcone "./nion/$nion/"
-mv ionz_out_lc "./nion/$nion/"
-
-echo "Move compleated for nion $nion "
-
-#change
-
+echo “Job finished successfully”

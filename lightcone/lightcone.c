@@ -105,6 +105,15 @@ void main()
     Ninput++;
   printf("%d no. of outputs are needed to create the lightcone.\n", Ninput - start);
   
+  FILE *fp_needed = fopen("../../Save/Run/inputs/input.needed", "w");
+  fprintf(fp_needed,"%d",Ninput - start);
+  printf("%d file written input.needed .\n", Ninput - start);
+
+  fclose(fp_needed);
+
+
+
+
   outpp=fopen("../../Save/Run/lightcone/lc_part","w");
   
   /*---------------------------------------------------------------------------*/
@@ -116,7 +125,7 @@ void main()
   for(ll=start;ll<Ninput;ll++)
     {
       sprintf(file,"%s%.4f%s%.4f","../../Save/Run/ionz_out_lc/HI_part_",nz[ll],"_",nionz[ll]);
-      printf("ll = %d  Ninp = %d\n",ll,Ninput );
+      printf("ll = %ld  Ninp = %d\n",ll,Ninput );
       printf("File trying %s\n",file );
       inp=fopen(file,"r");
 
