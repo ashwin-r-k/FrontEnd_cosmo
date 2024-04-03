@@ -78,6 +78,9 @@ compile_prog(location_lightcone,prog,location_home)
 prog = "ionz_main"
 compile_prog(location_rion_lc,prog,location_home)
 
+prog = "ionz_main_var_nion"
+compile_prog(location_rion_lc,prog,location_home)
+
 redshift_values_str = ' '.join(str(x) for x in redshift_values)
 
 lines = f"""{int(seed)} {int(Nbin)}

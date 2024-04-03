@@ -68,7 +68,7 @@ print(lines)
 
 
 location="lightcone"
-nion = Zarray(15,30,5)
+nion = Zarray(20,30.1,5)
 
 
 

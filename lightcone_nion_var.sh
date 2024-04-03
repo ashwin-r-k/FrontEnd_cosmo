@@ -64,6 +64,7 @@ rm -rv lightcone
 rm -rv ionz_out_lc
 
 cd "$LOC" || exit 1
+
 cd reionz_lc || exit 1
 ./ionz_main_var_nion $nion || exit 1 &
 Ionz_lc_PID=$!

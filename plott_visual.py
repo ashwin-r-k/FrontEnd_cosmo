@@ -1,6 +1,5 @@
 import re
 import os
-import pylab as pl
 import numpy as np
 
 from matplotlib import pyplot as plt
@@ -69,7 +68,6 @@ Tpl=dT[:,:,:,0]  # extracting out the first 5 slices
 av_Tpl=np.mean(Tpl, axis=0) # stacking (averaging) the 5 slices along x-axis(axis=0) 
 #print(np.shape(av_Tpl))
 
-fig = pl.figure(1, (5., 5.))
 #pl.imshow(av_Tpl,origin='lower')
 #pl.colorbar(pad=0.01,fraction=0.047)
 #pl.clim(0,5)
@@ -93,7 +91,6 @@ def update(frame):
     av_Tpl = np.mean(Tpl, axis=0)
 
 
-  #  pl.imshow(av_Tpl,origin='lower')
     im.set_array(av_Tpl)
 
     z=re.search(r"[-+]?\d*\.\d+|\d+", filename).group()
